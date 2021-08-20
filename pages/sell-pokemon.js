@@ -78,7 +78,7 @@ async function createSale(url) {
 }
 
 return (
-    <div className="flex justify-center">
+    <div className="flex justify-center background pokeball">
     <div className="w-1/2 flex flex-col pb-12">
         <input 
         placeholder="Pokémon Name"
@@ -91,7 +91,7 @@ return (
         onChange={e => updateFormInput({ ...formInput, description: e.target.value })}
         />
         <input
-        placeholder="Pokémon Price in Eth"
+        placeholder="Pokémon Price in Matic"
         className="mt-2 border rounded p-4"
         onChange={e => updateFormInput({ ...formInput, price: e.target.value })}
         />
@@ -106,7 +106,7 @@ return (
             <Image className="rounded mt-4" width="100px" height="100%" layout="responsive" src={fileUrl} />
         )
         }
-        <button onClick={createMarket} className="font-bold mt-4 bg-pink-500 text-white rounded p-4 shadow-lg">
+        <button onClick={createMarket} className="font-bold mt-4 bg-red-500 text-white rounded p-4 shadow-lg">
         Add Pokémon
         </button>
     </div>

@@ -67,14 +67,14 @@ export default function Home() {
               <div key={i} className="border shadow rounded-xl overflow-hidden">
                 <Image src={nft.image} width="100%" height="100%" layout="responsive"/>
                 <div className="p-4">
-                  <p style={{ height: '64px' }} className="text-2xl font-semibold">{nft.name}</p>
+                  <p style={{ height: '64px' }} className="text-2xl font-semibold">{nft.name}<Icon id="icon" icon="mdi:pokeball"/></p>
                   <div style={{ height: '70px', overflow: 'hidden' }}>
                     <p className="text-gray-400">{nft.description}</p>
                   </div>
                 </div>
                 <div className="p-4 bg-black">
-                  <p className="text-2xl mb-4 font-bold text-white">{nft.price} ETH</p>
-                  <button className="w-full bg-red-500 text-white font-bold py-2 px-12 rounded" onClick={() => buyNft(nft)}>Buy <Icon icon="mdi:pokeball"/></button>
+                  <p className="text-2xl mb-4 font-bold text-white">{nft.price} Matic</p>
+                  <button className="w-full bg-red-500 text-white font-bold rounded" onClick={() => buyNft(nft)}>Buy</button>
                 </div>
               </div>
             ))
