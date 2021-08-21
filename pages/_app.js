@@ -1,32 +1,32 @@
 import '../styles/globals.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import PokeMart from '../public/PokeMart.png'
+import PokeMart from '../public/PokeMart-color.png'
 
 function MyApp({ Component, pageProps }) {
   return(
     <div>
-    <section className="background nos">
+    <section className="bg-nos">
       <nav className="border-b p-6 ">
-        <Image src={PokeMart} width="230px" height="50px"/>
-        <div className="flex mt-4">
+        <Image src={PokeMart} width="200px" height="50px"/>
+        <div className="flex font-bold mt-4">
           <Link href="/">
-            <a className="mr-4 text-red-300">
+            <a className="mr-4 text-red-500 hover:text-red-400">
               Home
             </a>
           </Link>
           <Link href="/sell-pokemon">
-            <a className="mr-6 text-red-300">
+            <a className="mr-6 text-red-500 hover:text-red-400">
               Sell pokémon
             </a>
           </Link>
           <Link href="/my-pokemon">
-            <a className="mr-6 text-red-300">
+            <a className="mr-6 text-red-500 hover:text-red-400">
               My pokémon
             </a>
           </Link>
           <Link href="/trainer-dashboard">
-            <a className="mr-6 text-red-300">
+            <a className="mr-6 text-red-500 hover:text-red-400">
               Trainer Dashboard
             </a>
           </Link>

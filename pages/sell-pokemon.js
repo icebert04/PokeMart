@@ -78,7 +78,7 @@ async function createSale(url) {
 }
 
 return (
-    <div className="flex justify-center background pokeball">
+    <div className="flex justify-center">
     <div className="w-1/2 flex flex-col pb-12">
         <input 
         placeholder="Pokémon Name"
