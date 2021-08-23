@@ -34,7 +34,7 @@ See image of Mumbai commands below...
 > This repo is only for show purposes and it's not used for productivity. 
 > However, anyone can fork this for their own NFT Marketplace dApp purposes. 
 
-Hope you get something good from this repo. 
+Hope you get something good from this repo.   
 Feel free to fork, make a pull or request, and give feedbacks on further development of this project.
 
 Thanks!
