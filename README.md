@@ -1,3 +1,3 @@
 # Pokemon NFT Marketplace
 
-![PokeMart-screenshot](/puplic/screenshot.png)
+![PokeMart-screenshot](/public/screenshot.png)
