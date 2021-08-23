@@ -1,6 +1,6 @@
 # Pokemon NFT Marketplace
 
-My own Pokemon dApp deployed under the Polygon Network.
+My own **Pokemon dApp** deployed under the Polygon Network.
 
 ![PokeMart-screenshot](/public/screenshot.png)
 
@@ -30,7 +30,11 @@ See image of Mumbai commands below...
 
 -------------------------------------------------------------------------------------------------------
 
-> Disclaimer 
+> **Disclaimer** 
 > This repo is only for show purposes and it's not used for productivity. 
 > However, anyone can fork this for their own NFT Marketplace dApp purposes. 
+
+Hope you get something good from this repo. Feel free to fork, make a pull or request, anad give feedback on the further development of this project.
+
+Thanks!
 
